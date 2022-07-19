@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="stylo.css" />
+  <title>Jogo da Velha</title>
+</head>
+<nav>
+  <a href="#" id="logo">Meu Site</a>
+  <ul id="menu">
+    <li class="item"><a href="index.html">HOME</a></li>
+    <li class="item"><a href="#">PROJETOS</a></li>
+    <li class="item"><a href="#">SOBRE</a></li>
+    <li class="item"><a href="contact.html">CONTATO</a></li>
+  </ul>
+</nav> 
+<br> 
+<container>
+ <body onload=inicia()>
+  <div id='board'></div><br />
+  Linha :.<input id="lin" type="number" min="1" max="3"> <br />
+  Coluna:<input id="col" type="number"min="1" max="3"> <br />
+  <button onclick="jogar()">Marcar</button><br />
+  <div id='aviso'></div><br />
+ </container>
+ </body>
+ <script type="text/javascript" src="velha.js"></script>
+ <br>
+<footer> <h5 class="centralize">@Criado por Flavia P.Foneca</h5> </footer>
+</html>
